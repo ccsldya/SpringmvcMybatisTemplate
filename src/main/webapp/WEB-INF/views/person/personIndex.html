@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>index</title>
+    <meta charset="utf-8">
+    <#assign webRoot=request.contextPath />
+    <style>
+    </style>
+    <link rel="stylesheet" href="${webRoot}/resources/plugin/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${webRoot}/resources/plugin/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="${webRoot}/resources/plugin/KendoUI/css/kendo.common.min.css">
+    <link rel="stylesheet" href="${webRoot}/resources/css/ds.default.css">
+    <link rel="stylesheet" href="${webRoot}/resources/css/ds.default.ext.css">
+    <link rel="stylesheet" href="${webRoot}/resources/css/fonticon.css">
+    <script src="${webRoot}/resources/plugin/jquery/dist/jquery.min.js"></script>
+    <script src="${webRoot}/resources/plugin/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="${webRoot}/resources/plugin/angular/angular.min.js"></script>
+    <script src="${webRoot}/resources/plugin/KendoUI/js/kendo.all.min.js"></script>
+    <script src="${webRoot}/resources/plugin/KendoUI/js/messages/kendo.messages.zh-CN.min.js"></script>
+    <script src="${webRoot}/resources/plugin/KendoUI/js/cultures/kendo.culture.zh-CN.min.js"></script>
+    <script src="${webRoot}/resources/comp/ds.all.min.js"></script>
+    
+    <script src="${webRoot}/resources/js/person/personIndex.js"></script>
+
+</head>
+<style>
+    body{padding: 26px 30px;}
+    #add{width:100%;margin-bottom: 9px;text-align: right;}
+    #add button{margin-left: 10px;}
+</style>
+<body>
+<div ng-app="myApp" ng-controller="siteCtrl">
+    <div id="seo"class="container">
+        <label for="nameText" class="col-sm-1 text-right">姓名</label>
+        <div class="col-sm-2">
+            <input type="text" id="nameText" style="width: 100%;" class="k-input k-textbox">
+        </div>
+        <label for="alarm" class="col-sm-1 text-right">入职时间</label>
+        <div class="col-sm-2">
+        	<input id="createDateTime" kendo-date-picker style="width: 100%" maxlength="6" ng-disabled="disabled" k-ng-model="dateString" />
+        </div>
+        <div class="col-sm-3">
+            <kendo-button class="k-button-icontext k-primary"  ng-click="search();"><span class="k-button-icon icon-search"></span>查询</kendo-button>
+        </div><br/>
+    </div>
+
+    <div id="add">
+        <kendo-button id="submitbtn" class="k-button-icontext k-primary"  ng-click='showaddDlg();'><span class="k-button-icon icon-add"></span>添加</kendo-button>
+        <kendo-button id="editbtn" class="k-button-icontext k-primary"  ng-click='showEditDlg();'><span class="k-button-icon icon-add"></span>编辑</kendo-button>
+        <kendo-button class="k-button-icontext k-primary"  ng-click='deleteMore();'><span class="k-button-icon icon-bin"></span>删除</kendo-button>
+    </div>
+
+    <div id="grid"></div>
+
+    <div kendo-window="winEdit" k-options="winEditOption" k-animation="false"></div>
+</div>
+
+
+
+</body>
+</html>

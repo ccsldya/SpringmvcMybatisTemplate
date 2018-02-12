@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+
+
+
+.textEllipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.topToolbar {
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	height:90px;
+	width:100%;
+	color:white;
+	background:url('../image/topbg.jpg') repeat-x;
+	font-family: 微软雅黑;
+	z-index:900;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mar_R_16{width:34px}/*style="width:34px;"  */
+.mar_L_12{width:34px}/*style="width:34px;"  */
+#imgLogoImgUrl{
+	max-width:64px;/* 原本为64 */
+	max-height:64px;
+}
+.top_title{
+	font-size:24px;/* 原本为24px */
+}
+/* style="max-width:40px;max-height:40px;margin:4px 0px 0px 0px;cursor:pointer;" */
+#userimg{width:33px;height:33px;margin:4px 0px 0px 0px;cursor:pointer;}
+/* right_content */
+	/* style="z-index: -1 ;width:100%; height:900px; border:none; margin: 80px 0px 0px 0px; padding:0px;box-sizing: border-box;" */
+#frmContent{
+	z-index: -1 ;width:100%; height:900px; border:none; margin: 80px 0px 0px 0px; padding:0px;box-sizing: border-box;
+}
+/* style="z-index:777;margin-top:90px;" */
+.leftMenuContainer {
+	z-index:777;
+	margin-top:90px;
+}
+
+/*  style="border:0; text-align: right;padding:9px 9px 9px 0px; height:51px; background-color:transparent;" */
+.left_col .scroll-view .nav_title{
+	 border:0; text-align: right;padding:9px 9px 9px 0px; height:51px; background-color:transparent;
+}
+/*  style="height:41px;" */
+.menu_sec_zw{height:41px;}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.toolbarButton {
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:4px;
+    background-color:transparent;
+    padding:8px 3px;
+    text-align:center;
+    vertical-align:middle;
+}
+.toolbarButton:hover {
+    background-color:#2A3139;
+    opacity:0.25;
+    filter:alpha(opacity=25);
+}
+.toolbarLogoutBtn {
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:4px;
+    background-color:transparent;
+    padding:8px 3px;
+    text-align:center;
+    vertical-align:middle;
+}
+.toolbarLogoutBtn:hover {
+    background-color:red;
+    opacity:0.95;
+    filter:alpha(opacity=95);
+}
+
+
+.leftMenuContainer {
+	background:url('../image/leftbg.jpg') repeat;
+}
+
+
+.lockDlg {
+    position:absolute;
+    left:-450px;
+    top:-350px;
+    width:300px;
+    height:320px;
+    z-index:10000;
+    display:none;
+}
+.lockIcon {
+    font-size:280px;
+    color:black;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    cursor:pointer;
+}
+.lockIcon:hover {
+    color:#303030;
+}
+.unlockIcon {
+    font-size:20px;
+    color:black;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    cursor:pointer;
+}
+.unlockIcon:hover {
+    color:#303030;
+}
+
+
+.logoutDlg {
+    position:absolute;
+    left:-640px;
+    top:-480px;
+    background-color:#666666;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    width:568px;
+    height:auto;
+    z-index:10001;
+    display:none;
+}
+.logoutBtn {
+    width:100%;
+    border:1px solid #D8EDF7;
+    border-radius:4px;
+    font-size:16px;
+    margin:0px;
+    padding:4px;
+    text-align:center;
+    cursor:pointer;
+    color:#D8EDF7;
+}
+.logoutBtn:hover {
+    border:1px solid white;
+    background-color:#808080;
+    color:white;
+}
+.logoutCloseBtn {
+    width:30px;
+    height:30px;
+    border:none;
+    border-radius:50%;
+    padding:3px;
+    margin-top:19px;
+    margin-right:19px;
+    background-color:transparent;
+    cursor:pointer;
+    float:right;
+}
+.logoutCloseBtn:hover {
+    background-color:#808080;
+    opacity:0.95;
+    filter:alpha(opacity=95);
+}
+.msgrelative{
+	position:relative;
+ 	left:-18px;
+ 	top:-12px;
+  	display:none;
+}

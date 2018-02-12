@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.dao.PersonDao">
+
+	<insert id="insertPerson" parameterType="com.example.model.vo.PersonVo">
+		<selectKey resultType="long" order="BEFORE" keyProperty="personId">
+			SELECT SQ_T_PERSON.NEXTVAL FROM DUAL
+		</selectKey>
+		INSERT INTO T_PERSON
+		(
+		PKID,
+		PERSON_NAME,
+		PERSON_SEX,
+		IDENTITY_NO,
+		BRITH_DAY,
+		ORG_NAME,
+		POLICE_NUMBER,
+		CREATE_TIME,
+		VALID
+		)
+		VALUES
+		(
+		#{personId,jdbcType=VARCHAR},
+		#{personName,jdbcType=VARCHAR},
+		#{sex,jdbcType=NUMERIC},
+		#{identityNo,jdbcType=VARCHAR},
+		#{birthday,jdbcType=TIMESTAMP},
+		#{personOrg,jdbcType=VARCHAR},
+		#{policeNUMERIC,jdbcType=VARCHAR},
+		sysdate,
+		#{valid,jdbcType=NUMERIC},
+		)
+	</insert>
+
+	<update id="updateByPurchaseId" parameterType="long">
+		UPDATE TPURCHASE_SN
+		SET
+		SERIAL_NUMERIC = SERIAL_NUMERIC+1,
+		LAST_MODIFIED_TIME =SYSDATE
+		WHERE PURCHASE_ID = #{value,jdbcType=DECIMAL} and VALID = 'T'
+	</update>
+
+	<select id="queryPersonByCondition" parameterType="com.example.model.bo.QueryPersonBo" resultType="com.example.model.vo.PersonVo">
+		select
+		PKID as "personId",
+		PERSON_NAME as "personName",
+		PERSON_SEX as "sex",
+		IDENTITY_NO as "identityNo",
+		BRITH_DAY as "birthday",
+		ORG_NAME as "personOrg",
+		POLICE_NUMBER as "policeNUMERIC",
+		CREATE_TIME as "createTime",
+		VALID as "valid"
+		from T_PERSON
+	</select>
+
+	<select id="queryPersonCountByCondition" parameterType="com.example.model.bo.QueryPersonBo" resultType="java.lang.Integer">
+		select
+		count(*)
+		from T_PERSON
+	</select>
+
+
+</mapper>

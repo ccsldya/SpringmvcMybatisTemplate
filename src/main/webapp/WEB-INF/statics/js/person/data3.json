@@ -1,0 +1,1171 @@
+﻿{
+	"dataStore": {
+		"data": [{
+				"birthday": 1496332800000,
+				"createTime": 1496368414042,
+				"identityNo": "123456789987654321",
+				"jzrankOrder": 0,
+				"personCode": "pcs",
+				"personContacts": [],
+				"personId": "ff8081815c63b9ec015c668200fd0000",
+				"personName": "派出所",
+				"personOrg": [{
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "yhpcs",
+						"createTime": 1496368522126,
+						"fullKeyId": "ff8081815bf012be015bf01d75050000.ff8081815bf012be015bf01f951e0001.ff8081815c63b9ec015c6683a4c30004",
+						"id": "ff8081815c63b9ec015c6683a4c30004",
+						"innerSysUnit": false,
+						"name": "瑶海下的派出所",
+						"order": 500,
+						"orgKey": "yhpcs",
+						"orgType": "PCS",
+						"searchCode": "yhpcs",
+						"updateTime": 1496368522126,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "WY1",
+				"rankName": "委员",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1496368617959,
+				"valid": true
+			}, {
+				"birthday": 1495728000000,
+				"createTime": 1495781511365,
+				"identityNo": "123333333311111111",
+				"jzrankOrder": 0,
+				"personCode": "manager",
+				"personContacts": [],
+				"personId": "ff8081815c3facbd015c438690ca0039",
+				"personName": "勤务管理最大员",
+				"personOrg": [{
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "370100010000",
+						"createTime": 1494382113850,
+						"fullKeyId": "ff8081815bf012be015bf01d75050000",
+						"id": "ff8081815bf012be015bf01d75050000",
+						"innerSysUnit": false,
+						"name": "合肥市局",
+						"order": 12,
+						"orgKey": "370100010000",
+						"orgType": "SJ",
+						"searchCode": "370100010000",
+						"updateTime": 1494382138654,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "WY1",
+				"rankName": "委员",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495853950953,
+				"valid": true
+			}, {
+				"birthday": 1495728000000,
+				"createTime": 1495775354496,
+				"identityNo": "321312313213313131",
+				"jzrankOrder": 0,
+				"personCode": "onduty-admin",
+				"personContacts": [],
+				"personId": "ff8081815c3facbd015c43289e89001e",
+				"personName": "勤务管理员",
+				"personOrg": [{
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "370100010000",
+						"createTime": 1494382113850,
+						"fullKeyId": "ff8081815bf012be015bf01d75050000",
+						"id": "ff8081815bf012be015bf01d75050000",
+						"innerSysUnit": false,
+						"name": "合肥市局",
+						"order": 12,
+						"orgKey": "370100010000",
+						"orgType": "SJ",
+						"searchCode": "370100010000",
+						"updateTime": 1494382138654,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "WY1",
+				"rankName": "委员",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495852457436,
+				"valid": true
+			}, {
+				"address": "上海市",
+				"birthday": 1495468800000,
+				"createTime": 1495504061779,
+				"identityNo": "630122444563214578",
+				"jzrankOrder": 0,
+				"personCode": "lisi001",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "15623145555",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c1ac070028",
+						"owner": {
+							"$ref": "$.dataStore.data[3]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": "标题",
+						"contactType": "JWT",
+						"contactValue": "156",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c1ac0d002a",
+						"owner": {
+							"$ref": "$.dataStore.data[3]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": "标题",
+						"contactType": "PDT",
+						"contactValue": "155",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c1ac0a0029",
+						"owner": {
+							"$ref": "$.dataStore.data[3]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "ff8081815c32da1d015c32fd05660007",
+				"personName": "李四",
+				"personOrg": [{
+						"address": "地址sssssssssssssssssssss",
+						"architectureType": "1",
+						"authToUnitNode": false,
+						"code": "1000110a",
+						"fullKeyId": "4028874e5b9ea7d8015b9ebe4b0e0019.402886485a8921a9015a91cc570d0005",
+						"fullName": "单位全称20010021",
+						"id": "402886485a8921a9015a91cc570d0005",
+						"innerSysUnit": false,
+						"memo": "sssssssssssssssssssssssssss",
+						"name": "单位20010021",
+						"order": 0,
+						"orgKey": "1000110a",
+						"orgType": "QXGAJG ",
+						"postCode": "123456",
+						"searchCode": "1000110a",
+						"updateTime": 1495852503687,
+						"valid": false
+					}
+				],
+				"policeNumber": "100100",
+				"political": "0",
+				"rankCode": "KZ",
+				"rankName": "科长",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495852493822,
+				"valid": true
+			}, {
+				"birthday": 1495468800000,
+				"createTime": 1495503121765,
+				"identityNo": "310456655555551236",
+				"jzrankOrder": 0,
+				"personCode": "zs001",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "13654488956",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c0a0090009",
+						"owner": {
+							"$ref": "$.dataStore.data[4]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "ff8081815c32da1d015c32eead7e0004",
+				"personName": "张三001",
+				"personOrg": [{
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "370100010000",
+						"createTime": 1494382113850,
+						"fullKeyId": "ff8081815bf012be015bf01d75050000",
+						"id": "ff8081815bf012be015bf01d75050000",
+						"innerSysUnit": false,
+						"name": "合肥市局",
+						"order": 12,
+						"orgKey": "370100010000",
+						"orgType": "SJ",
+						"searchCode": "370100010000",
+						"updateTime": 1494382138654,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "CJY",
+				"rankName": "处警员",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495852425217,
+				"valid": true
+			}, {
+				"birthday": 1494950400000,
+				"createTime": 1495006300018,
+				"identityNo": "310111199022400151",
+				"jzrankOrder": 0,
+				"personCode": "ceshilianxi001",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "wewqe",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c13a340024",
+						"owner": {
+							"$ref": "$.dataStore.data[5]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": "标题001",
+						"contactType": "MOBILE",
+						"contactValue": "336",
+						"defaultFlag": true,
+						"id": "4028874e5c47676c015c47c13a310023",
+						"owner": {
+							"$ref": "$.dataStore.data[5]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c15328b015c1551c7a30006",
+				"personName": "ceshilianxi001",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "KZ",
+				"rankName": "科长",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495852464682,
+				"valid": true
+			}, {
+				"birthday": 1494950400000,
+				"createTime": 1495004634406,
+				"identityNo": "310111199022001222",
+				"jzrankCode": "JZ",
+				"jzrankName": "局长",
+				"jzrankOrder": 0,
+				"personCode": "ceshi008",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "33",
+						"defaultFlag": true,
+						"id": "4028874e5c15328b015c153891880003",
+						"owner": {
+							"$ref": "$.dataStore.data[6]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c15328b015c15385d260000",
+				"personName": "ceshi008",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}, {
+						"address": "平江路3031092号",
+						"architectureType": "1",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000161",
+						"fullKeyId": "4028874d5b0ef0f4015b0ef1c5590010",
+						"fullName": "单位765111",
+						"id": "4028874d5b0ef0f4015b0ef1c5590010",
+						"innerSysUnit": false,
+						"memo": "单位备注-_-3031092",
+						"name": "单位3031092",
+						"order": 2,
+						"orgKey": "1000161",
+						"orgType": "QXGAJG ",
+						"postCode": "212300",
+						"searchCode": "1000161",
+						"updateTime": 1495863306757,
+						"valid": false
+					}
+				],
+				"political": "0",
+				"rankCode": "FJZ",
+				"rankName": "副局长",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495004647816,
+				"valid": true
+			}, {
+				"address": "是是是",
+				"birthday": 1494950400000,
+				"createTime": 1495003827073,
+				"identityNo": "123456789123456789",
+				"jzrankOrder": 0,
+				"personCode": "ry007",
+				"personContacts": [],
+				"personId": "4028874e5c152412015c152c0b860003",
+				"personName": "人员007",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"policeNumber": "123",
+				"political": "0",
+				"rankOrder": 0,
+				"remark": "对方公司的分公司的风格隧道股份山东分公司的风格",
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495850878635,
+				"valid": true
+			}, {
+				"birthday": 1494950400000,
+				"createTime": 1495003481975,
+				"identityNo": "963585247158258611",
+				"jzrankOrder": 0,
+				"personCode": "ceshi006",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "8985555",
+						"defaultFlag": false,
+						"id": "4028874e5c152412015c1526c7a70001",
+						"owner": {
+							"$ref": "$.dataStore.data[8]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c152412015c1526c7870000",
+				"personName": "ceshi006",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"policeNumber": "ceshi006",
+				"political": "0",
+				"rankOrder": 0,
+				"remark": "ceshi006",
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495003481975,
+				"valid": true
+			}, {
+				"address": "ceshi005",
+				"birthday": 1494950400000,
+				"createTime": 1495002473357,
+				"identityNo": "963585247158258611",
+				"jzrankOrder": 0,
+				"personCode": "ceshi005",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "2131231",
+						"defaultFlag": false,
+						"id": "4028874e5c14f588015c15188101002e",
+						"owner": {
+							"$ref": "$.dataStore.data[9]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c14f588015c1517b1e8002d",
+				"personName": "ceshi005",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495002473357,
+				"valid": true
+			}, {
+				"birthday": 1494950400000,
+				"createTime": 1495002156413,
+				"identityNo": "963585247158258611",
+				"jzrankOrder": 0,
+				"personCode": "ceshi004",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "1232312213",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47a129400000",
+						"owner": {
+							"$ref": "$.dataStore.data[10]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c14f588015c15128da0002a",
+				"personName": "ceshi004",
+				"personOrg": [{
+						"address": "平江路3031049号",
+						"architectureType": "1",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000134",
+						"fullKeyId": "FULL_KEY_3002006.4028874d5b0eefc4015b0eefcb160001",
+						"fullName": "单位全称-3031049",
+						"id": "4028874d5b0eefc4015b0eefcb160001",
+						"innerSysUnit": false,
+						"memo": "单位备注-_-3031049",
+						"name": "单位3031049",
+						"order": 0,
+						"orgKey": "1000134",
+						"orgLatitude": "N12",
+						"orgLongitude": "E30.123",
+						"orgType": "QXGAJG ",
+						"postCode": "200000",
+						"searchCode": "1000134",
+						"updateTime": 1495864443456,
+						"valid": false
+					}
+				],
+				"political": "0",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495850363156,
+				"valid": true
+			}, {
+				"birthday": 1494950400000,
+				"createTime": 1495001822293,
+				"identityNo": "96325874158954127X",
+				"jzrankOrder": 0,
+				"personCode": "ceshi003",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "11",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c0f16d0017",
+						"owner": {
+							"$ref": "$.dataStore.data[11]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c14f588015c150d74710024",
+				"personName": "ceshi003",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"political": "1",
+				"rankCode": "JZ",
+				"rankName": "局长",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495852446053,
+				"valid": true
+			}, {
+				"birthday": 1494950400000,
+				"createTime": 1495001579701,
+				"identityNo": "895623147852458211",
+				"jzrankCode": "JZ",
+				"jzrankName": "局长",
+				"jzrankOrder": 0,
+				"personCode": "ceshi002",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "111",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c0e1360014",
+						"owner": {
+							"$ref": "$.dataStore.data[12]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c14f588015c1509c0d2001f",
+				"personName": "ceshi002",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}, {
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "FJZ",
+				"rankName": "副局长",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495852441902,
+				"valid": true
+			}, {
+				"address": "ceshi001",
+				"birthday": 1494950400000,
+				"createTime": 1495001328981,
+				"identityNo": "888888888888888888",
+				"jzrankOrder": 0,
+				"personCode": "ceshi001",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "8521",
+						"defaultFlag": true,
+						"id": "4028874e5c14f588015c1505ed96001d",
+						"owner": {
+							"$ref": "$.dataStore.data[13]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874e5c14f588015c1505ed79001c",
+				"personName": "ceshi001",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"policeNumber": "965",
+				"political": "1",
+				"rankOrder": 0,
+				"remark": "ceshi001",
+				"sex": "MALE",
+				"systemPerson": false,
+				"updateTime": 1495001328981,
+				"valid": true
+			}, {
+				"birthday": 1494777600000,
+				"createTime": 1494819644949,
+				"identityNo": "111111111111111111",
+				"jzrankCode": "WY1",
+				"jzrankName": "委员",
+				"jzrankOrder": 0,
+				"personCode": "001",
+				"personContacts": [{
+						"contactLabel": "单位",
+						"contactType": "PHONE",
+						"contactValue": "7654654",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c0d4de0010",
+						"owner": {
+							"$ref": "$.dataStore.data[14]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": "个人",
+						"contactType": "MOBILE",
+						"contactValue": "1827616552621",
+						"defaultFlag": true,
+						"id": "4028874e5c47676c015c47c0d4e10011",
+						"owner": {
+							"$ref": "$.dataStore.data[14]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "ff8081815c01e3e2015c0a31a61d0006",
+				"personName": "姜宁",
+				"personOrg": [{
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "370112000000",
+						"createTime": 1494382347072,
+						"fullKeyId": "ff8081815bf012be015bf01d75050000.ff8081815bf012be015bf02103520002",
+						"id": "ff8081815bf012be015bf02103520002",
+						"innerSysUnit": false,
+						"name": "庐阳",
+						"order": 500,
+						"orgKey": "370112000000",
+						"orgType": "QXGAJG ",
+						"searchCode": "370112000000",
+						"updateTime": 1494382347072,
+						"valid": true
+					}, {
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"political": "1",
+				"rankCode": "WY1",
+				"rankName": "委员",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": true,
+				"updateTime": 1495852438743,
+				"valid": true
+			}, {
+				"birthday": 1494777600000,
+				"createTime": 1494811264072,
+				"identityNo": "345325333444334433",
+				"jzrankOrder": 0,
+				"personCode": "why001",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "13333333333",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c0c8c7000e",
+						"owner": {
+							"$ref": "$.dataStore.data[15]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "ff8081815c01e3e2015c09b1c5e60000",
+				"personName": "合肥市局维护员",
+				"personOrg": [{
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "370100010000",
+						"createTime": 1494382113850,
+						"fullKeyId": "ff8081815bf012be015bf01d75050000",
+						"id": "ff8081815bf012be015bf01d75050000",
+						"innerSysUnit": false,
+						"name": "合肥市局",
+						"order": 12,
+						"orgKey": "370100010000",
+						"orgType": "SJ",
+						"searchCode": "370100010000",
+						"updateTime": 1494382138654,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "WY",
+				"rankName": "文职人员",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": true,
+				"updateTime": 1495852435643,
+				"valid": true
+			}, {
+				"birthday": 1494345600000,
+				"createTime": 1494401238368,
+				"identityNo": "123456789123456789",
+				"jzrankCode": "WY1",
+				"jzrankName": "委员",
+				"jzrankOrder": 0,
+				"personCode": "sssss67gfjhf",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "110",
+						"defaultFlag": false,
+						"id": "4028874d5c1475c8015c1487d0020000",
+						"owner": {
+							"$ref": "$.dataStore.data[16]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "963",
+						"defaultFlag": false,
+						"id": "4028874d5c1475c8015c1487d01b0002",
+						"owner": {
+							"$ref": "$.dataStore.data[16]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": "标题",
+						"contactType": "MOBILE",
+						"contactValue": "101",
+						"defaultFlag": true,
+						"id": "4028874d5c1475c8015c1487d0170001",
+						"owner": {
+							"$ref": "$.dataStore.data[16]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "4028874d5bf13e93015bf14145730000",
+				"personName": "ghjkhjkfghj",
+				"personOrg": [{
+						"address": "平江路3002009号",
+						"architectureType": "1",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000119",
+						"fullKeyId": "FULL_KEY_3002009",
+						"fullName": "单位全称-3002009",
+						"id": "4028874d5acfdbad015acfdc141e0008",
+						"innerSysUnit": false,
+						"memo": "单位备注-_-3002009",
+						"name": "单位3002009",
+						"order": 5,
+						"orgKey": "1000119",
+						"orgType": "QXGAJG ",
+						"postCode": "200000",
+						"valid": true
+					}, {
+						"address": "sdfasfgs时代风格",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "2000201",
+						"fullKeyId": "0C9832E808924D9BA0EBC80045D3ED82",
+						"fullName": "Unit201",
+						"id": "0C9832E808924D9BA0EBC80045D3ED82",
+						"innerSysUnit": false,
+						"memo": "Unit201",
+						"name": "Unit201",
+						"order": 13,
+						"orgKey": "201",
+						"orgType": "SJ",
+						"postCode": "200000",
+						"searchCode": "45",
+						"updateTime": 1495522992456,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankCode": "SJ",
+				"rankName": "书记",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": true,
+				"updateTime": 1494993063815,
+				"valid": true
+			}, {
+				"birthday": 1494172800000,
+				"createTime": 1494229890782,
+				"identityNo": "323242343453453451",
+				"jzrankOrder": 0,
+				"personCode": "RY",
+				"personContacts": [{
+						"contactLabel": "标题",
+						"contactType": "PHONE",
+						"contactValue": "45212121",
+						"defaultFlag": false,
+						"id": "ff8081815bf263d3015bf6b0093c0001",
+						"owner": {
+							"$ref": "$.dataStore.data[17]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "ff8081815be2eb79015be70ab6e7001d",
+				"personName": "测试2",
+				"personOrg": [{
+						"address": "平江路3031092号",
+						"architectureType": "1",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000161",
+						"fullKeyId": "4028874d5b0ef0f4015b0ef1c5590010",
+						"fullName": "单位765111",
+						"id": "4028874d5b0ef0f4015b0ef1c5590010",
+						"innerSysUnit": false,
+						"memo": "单位备注-_-3031092",
+						"name": "单位3031092",
+						"order": 2,
+						"orgKey": "1000161",
+						"orgType": "QXGAJG ",
+						"postCode": "212300",
+						"searchCode": "1000161",
+						"updateTime": 1495863306757,
+						"valid": false
+					}
+				],
+				"political": "0",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": true,
+				"updateTime": 1494492383409,
+				"valid": true
+			}, {
+				"birthday": 1494172800000,
+				"createTime": 1494222626903,
+				"identityNo": "123456789012345678",
+				"jzrankOrder": 0,
+				"personCode": "RENYUAN",
+				"personContacts": [{
+						"contactLabel": "2",
+						"contactType": "MOBILE",
+						"contactValue": "2",
+						"defaultFlag": false,
+						"id": "ff8081815c494306015c4946e5c40001",
+						"owner": {
+							"$ref": "$.dataStore.data[18]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": " ",
+						"contactType": "MOBILE",
+						"contactValue": "13189988844",
+						"defaultFlag": false,
+						"id": "ff8081815be2eb79015be6fb6f580014",
+						"owner": {
+							"$ref": "$.dataStore.data[18]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "ff8081815be2eb79015be69be0600011",
+				"personName": "测试人1",
+				"personOrg": [{
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"code": "CESHIfgh",
+						"fullKeyId": "ff8081815be2eb79015be69a76100010",
+						"id": "ff8081815be2eb79015be69a76100010",
+						"innerSysUnit": false,
+						"name": "测试10",
+						"order": 11,
+						"orgKey": "CESHI",
+						"orgType": "SJ",
+						"searchCode": "CESHI",
+						"updateTime": 1495767751198,
+						"valid": true
+					}
+				],
+				"political": "0",
+				"rankOrder": 0,
+				"sex": "MALE",
+				"systemPerson": true,
+				"updateTime": 1494228889427,
+				"valid": true
+			}, {
+				"birthday": 1494172800000,
+				"createTime": 1494213325038,
+				"identityNo": "333333333333333333",
+				"jzrankOrder": 0,
+				"personCode": "111111",
+				"personContacts": [{
+						"contactLabel": "ghyt",
+						"contactType": "WIRELESS",
+						"contactValue": "555",
+						"defaultFlag": false,
+						"id": "4028874d5c616f23015c6190e5f90016",
+						"owner": {
+							"$ref": "$.dataStore.data[19]"
+						},
+						"valid": true
+					}, {
+						"contactLabel": "个sss",
+						"contactType": "PHONE",
+						"contactValue": "222222",
+						"defaultFlag": false,
+						"id": "4028874e5c47676c015c47c154f80026",
+						"owner": {
+							"$ref": "$.dataStore.data[19]"
+						},
+						"valid": true
+					}
+				],
+				"personId": "ff8081815be2eb79015be60df11c0000",
+				"personName": "vflofksoff",
+				"personOrg": [{
+						"address": "能00单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"architectureType": "2",
+						"authToUnitNode": false,
+						"businessUnit": "业务体系",
+						"code": "1000102",
+						"fullKeyId": "4028874d5acfdbad015acfdc139e0001",
+						"fullName": "单位全称单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1",
+						"id": "4028874d5acfdbad015acfdc139e0001",
+						"innerSysUnit": false,
+						"memo": "11111111单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称-1单位全称",
+						"name": "-1单位全称",
+						"order": 0,
+						"orgKey": "1000102",
+						"orgLatitude": "N20",
+						"orgLongitude": "E21",
+						"orgType": "ZYGAJG",
+						"postCode": "230091",
+						"searchCode": "1000102",
+						"updateTime": 1495864354119,
+						"valid": true
+					}
+				],
+				"policeNumber": "fffffffff",
+				"political": "1",
+				"rankCode": "JZ",
+				"rankName": "局长",
+				"rankOrder": 0,
+				"remark": "fffffff",
+				"sex": "MALE",
+				"systemPerson": true,
+				"updateTime": 1495852471536,
+				"valid": true
+			}
+		],
+		"enums": {
+			"BASIC_ZZMM": {
+				"enumItems": [{
+						"text": "群众",
+						"value": "0"
+					}, {
+						"text": "中共党员",
+						"value": "1"
+					}, {
+						"text": "中共预备党员",
+						"value": "2"
+					}, {
+						"text": "共青团员",
+						"value": "3"
+					}, {
+						"text": "民革会员",
+						"value": "4"
+					}, {
+						"text": "民盟盟员",
+						"value": "5"
+					}, {
+						"text": "民建会员",
+						"value": "6"
+					}, {
+						"text": "民进会员",
+						"value": "7"
+					}, {
+						"text": "农工党党员",
+						"value": "8"
+					}, {
+						"text": "致公党党员",
+						"value": "9"
+					}, {
+						"text": "九三学社社员",
+						"value": "10"
+					}, {
+						"text": "台盟盟员",
+						"value": "11"
+					}, {
+						"text": "无党派民主人士",
+						"value": "12"
+					}
+				],
+				"key": "BASIC_ZZMM"
+			},
+			"BASIC_XB": {
+				"enumItems": [{
+						"text": "男",
+						"value": "MALE"
+					}, {
+						"text": "女",
+						"value": "FEMALE"
+					}
+				],
+				"key": "BASIC_XB"
+			}
+		},
+		"query": {
+			"pageForm": {
+				"currentPage": 1,
+				"pageSize": 20,
+				"totalPage": 0,
+				"totalSize": 37
+			},
+			"queryForm": {
+				"queryData": {
+					"enable": false,
+					"political": "",
+					"idno": "",
+					"personame": ""
+				}
+			}
+		}
+	},
+	"msg": "",
+	"ret": "ok"
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <#assign webRoot=request.contextPath />
+    <link rel="stylesheet" href="${webRoot}/resources/plugin/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${webRoot}/resources/plugin/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="${webRoot}/resources/plugin/KendoUI/css/kendo.common.min.css">
+    <link rel="stylesheet" href="${webRoot}/resources/css/ds.default.css">
+    <link rel="stylesheet" href="${webRoot}/resources/css/ds.default.ext.css">
+    <link rel="stylesheet" href="${webRoot}/resources/css/fonticon.css">
+    <script src="${webRoot}/resources/plugin/jquery/dist/jquery.min.js"></script>
+    <script src="${webRoot}/resources/plugin/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="${webRoot}/resources/plugin/angular/angular.min.js"></script>
+    <script src="${webRoot}/resources/plugin/KendoUI/js/kendo.all.min.js"></script>
+    <script src="${webRoot}/resources/plugin/KendoUI/js/messages/kendo.messages.zh-CN.min.js"></script>
+    <script src="${webRoot}/resources/plugin/KendoUI/js/cultures/kendo.culture.zh-CN.min.js"></script>
+    <script src="${webRoot}/resources/comp/ds.all.min.js"></script>
+
+    <script src="${webRoot}/resources/js/person/editPerson.js"></script>
+    <script src="${webRoot}/resources/js/person/org.js"></script>
+
+</head>
+<style>
+    span.k-widget.k-tooltip-validation {
+        position: absolute;
+        left: 14px;
+        top: 28px;
+        display: inline-block;
+        text-align: left;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: none;
+        box-shadow: none;
+        color: red;
+    }
+    .col-xs-6.ds-form {
+        width: 50%;
+    }
+    .ds-combo-tree{
+        border: 1px solid rgb(204,204,204);
+        max-height: 300px;
+        overflow:auto;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        z-index: 100;
+        padding: 4px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing:border-box;
+        margin: 0;
+        display:none;
+    }
+    /**/
+    .personPhone {border: 1px dotted rgba(0,0,0,.2);padding-top: 2px;}
+    #addPhone{z-index: 9999;margin-bottom:20px;;position:relative;left:297px;}
+    #fieldlist>div>label,.personPhone label{clear:both; text-align: right}
+</style>
+<body ng-app="myApp" ng-controller="editorWebCtrl">
+<div>
+    <form kendo-validator="validator" class="container-fluid">
+        <div id="fieldlist">
+            <div class="col-xs-6 ds-form">
+
+                <!--姓名-->
+                <label class="col-xs-3 required">姓名</label>
+                <div class="col-xs-9">
+                    <input class="k-input k-textbox" type="text" name="姓名" maxlength="50" required validationMessage="输入{0}" ng-disabled="disabled" ng-model="dataStore.data.personName">
+                    <span class="k-invalid-msg" data-for="xm"></span>
+                </div>
+
+                <!--性别-->
+                <label class="col-xs-3">性别</label>
+                <div class="col-xs-9">
+                    <select kendo-drop-down-list
+                            k-data-text-field="'text'"
+                            k-data-value-field="'value'"
+                            k-data-source="dataStore.enums['BASIC_XB'].enumItems"
+                            ng-disabled="disabled"
+                            ng-model="dataStore.data.sex"></select>
+                </div>
+
+                <!--身份证-->
+                <label class="col-xs-3 required">身份证</label>
+                <div class="col-xs-9">
+                    <input class="k-input k-textbox" type="text" name="身份证"  maxlength="50" ng-model="dataStore.data.identityNo" ng-disabled="disabled" name="identityNo" required pattern="\d{17}(X|x|\d{1})" validationMessage="输入18位身份证号码">
+                    <span class="k-invalid-msg" data-for="身份证"></span>
+                </div>
+
+            </div>
+
+            <div class="col-xs-6 ds-form" >
+                <!--出生日期-->
+                <label class="col-xs-3">出生日期</label>
+                <div class="col-xs-9" >
+                    <input id="birthdayPicker" style="width: 100%" maxlength="6" ng-disabled="disabled" />
+                </div>
+
+                <!--单位-->
+                <label class="col-xs-3">组织机构</label>
+                <div class="col-xs-9" >
+                    <div id="orgTree" class="k-input k-textbox" maxlength="30">
+                </div>
+
+                <!--警号-->
+                <label class="col-xs-3">警号</label>
+                <div class="col-xs-9">
+                    <input class="k-input k-textbox" type="text" name="警号" maxlength="30" ng-disabled="disabled" ng-model="dataStore.data.policeNumber">
+                    <span class="k-invalid-msg" data-for="警号"></span>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <div class="col-xs-12 text-center ds-div-submit">
+        <button id="submitbtn" type="submit" class="k-button k-primary" ng-click="saveData();" style="margin-right:6px;">保存</button>
+        <!-- <button type="submit" class="k-button k-grey" ng-click="closeWindow();">取消</button> -->
+    </div>
+</div>
+
+</body>
+</html>
+

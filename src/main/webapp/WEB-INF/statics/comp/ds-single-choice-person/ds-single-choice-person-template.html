@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../plugin/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../plugin/kendo/css/kendo.common.min.css">
+    <link rel="stylesheet" href="../../css/ds.default.css">
+    <link rel="stylesheet" href="../../css/ds.default.ext.css">
+    <script src="../../plugin/kendo/js/jquery.min.js"></script>
+    <script src="../../plugin/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../plugin/kendo/js/angular.min.js"></script>
+    <script src="../../plugin/kendo/js/jszip.min.js"></script>
+    <script src="../../plugin/kendo/js/kendo.all.min.js"></script>
+    <script src="../../plugin/kendo/js/messages/kendo.messages.zh-CN.min.js"></script>
+    <script src="../../plugin/kendo/js/cultures/kendo.culture.zh-CN.min.js"></script>
+    <script src="../ds-common.js"></script>
+    <script src="ds-single-choice-person.js"></script>
+    <style>
+        body{
+            padding-top: 15px;
+        }
+        .table tr{
+            cursor: pointer;
+        }
+        .div-submit{
+            padding: 10px 45px 10px 10px;
+            background: #fff;
+        }
+
+        #ry_txt{
+            height: 38px;
+            width: 100%;
+            padding: 8px;
+        }
+        .ds-header{
+            height: 40px;
+            padding-top: 7px;
+            padding-left: 15px;
+            background: #e0e2e7;
+            color: #3a464e;
+        }
+        .table-hover > tbody > tr:hover {
+            background-color: #bddeff;
+            color:#ffffff;
+        }
+     </style>
+</head>
+<body ng-app="EnumDemo" ng-controller="EnumDemo.Ctrl">
+<div class="container-fluid">
+    <div>
+        <div class="col-xs-6">
+            <div class="ds-header">
+                <span class="k-sprite k-icon k-edit"></span>单位
+            </div>
+            <div style="border: 1px solid #d5d5d5;height: 425px;overflow-y: auto;">
+                <div style="padding: 15px;">
+                    <input id="ry_txt" type="text" class="k-input" ng-keyup="SearchPerson()" placeholder="搜索人员...">
+                </div>
+                <div style="padding-left: 15px;">
+                    <div kendo-tree-view="tree"
+                         k-options="treeOption"
+                         k-data-source="treeData"
+                         k-on-change="selectedItem = dataItem">
+                        <span k-template ng-click='click(dataItem)'>
+                             {{dataItem.text}}
+                        </span>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="ds-header">
+                <span class="k-sprite k-icon k-edit"></span>人员
+            </div>
+            <div style="border: 1px solid #d5d5d5;height: 425px;overflow-y: auto;">
+                <table class="table table-hover">
+                <tbody>
+                <tr ng-repeat="people in personList" ng-click="clickItemFun($index)">
+                    <td>
+                        {{people.text}}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="ds-single-choice-person-template.js"></script>
+</body>
+</html>

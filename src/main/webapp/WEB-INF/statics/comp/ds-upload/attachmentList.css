@@ -1,0 +1,123 @@
+
+
+
+.attachment {
+    /*border: 1px solid #dddddd;*/
+    /*height:200px;*/
+    /*border-radius: 3px;*/
+    /*background-color:#ffffff;*/
+}
+.attachmentHeader {
+    width:96px;
+    height:30px;
+    text-align: center;
+    border-left:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+}
+.attachmentBody {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding:0px;
+}
+
+.atmItemSize {
+    height:130px;
+    float:left;
+}
+.atmItemBody {
+    width:104px;
+    height:104px;
+    cursor:pointer;
+    background-color: #e9f4ff;
+    position: relative;
+}
+.atmItemFooter {
+    width:104px;
+    height:26px;
+}
+.atmItemBakNormal {
+    border: 1px solid #bde4ff;
+}
+.atmItemBakHover {
+    border: 1px solid #0089ef;
+}
+.atmItemBakSelect {
+    border: 1px solid #0089ef;
+}
+.atmItemIcon {
+    height:78px;
+    text-align:center;
+    padding-top:15px;
+}
+.atmItemIconSize {
+    width:48px;
+    height:48px;
+}
+.atmItemName {
+    height:26px;
+    font-size:12px;
+    text-align:center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.atmItemFooterBtn {
+    /*width:50%;*/
+    /*height:100%;*/
+    float:left;
+    text-align: center;
+    cursor:pointer;
+    padding-top: 4px;
+}
+
+.atmItemFooterLeftBtn {
+    background-color: #a0a7af;
+    /*border-bottom-left-radius: 3px;*/
+    color: #fff;
+}
+
+.atmItemFooterRightBtn {
+    background-color: #ca0202;
+    /*border-bottom-right-radius: 3px;*/
+    color: #fff;
+}
+.attachmentHeader>.k-button-icon {
+    padding-top: 10px;
+}
+.atmItemTip{
+    padding: 2px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #0089ef;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    left: 77px;
+    top: 5px;
+}
+.ds-panel >.ds-panel-content {
+    padding-top: 15px;
+}
+.ds-panel-header{
+    line-height: 30px;
+}
+.ds-panel-tool{
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #0089ef;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    display: table;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.ds-panel-content {
+    height: 200px;
+    overflow-y: auto;
+}
